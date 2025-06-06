@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Lu-Kart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo"><a href="index.html">Lu-Kart</a></div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#deals">Deals</a></li>
+            </ul>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="icons">
+                <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <button class="btn-primary" onclick="window.location.href='login.html'">
+                    <i class="fas fa-sign-in-alt"></i>Login
+                </button>
+            </div>
+
+            <div class="nav-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="cart-page">
+        <div class="cart-container">
+            <div class="cart-items-section">
+                <h2>Shopping Cart (<span id="itemCount">0</span> items)</h2>
+                <div id="cartItems" class="cart-items">
+                    <!-- Cart items will be dynamically added here -->
+                </div>
+            </div>
+
+            <div class="cart-summary">
+                <div class="summary-card">
+                    <h3>Price Details</h3>
+                    <div class="price-row">
+                        <span>Price (<span id="itemCountSummary">0</span> items)</span>
+                        <span id="subtotal">₹0.00</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Discount</span>
+                        <span class="discount" id="discount">-₹0.00</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Delivery Charges</span>
+                        <span id="delivery">₹99.00</span>
+                    </div>
+                    <div class="price-row total">
+                        <span>Total Amount</span>
+                        <span id="total">₹0.00</span>
+                    </div>
+                    <button class="checkout-btn">
+                        <i class="fas fa-lock"></i> Proceed to Checkout
+                    </button>
+                </div>
+
+                <div class="secure-checkout">
+                    <p><i class="fas fa-shield-alt"></i> Safe and Secure Payments</p>
+                    <p><i class="fas fa-undo"></i> 30-Day Easy Returns</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-content">
+                <a href="index.html" class="footer-logo">Lu-<span>Kart</span></a>
+                <p class="footer-description">
+                    Your one-stop shop for quality products and great deals every day.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/lucyfer1703" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/lucyfer1703/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/lucyfer_1703" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/@CollegeCrackdown" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Free Shipping</a></li>
+                    <li><a href="#">Easy Return</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Company</h3>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Contact</h3>
+                <ul class="footer-links">
+                    <li><a href="https://www.google.com/maps/place/25.586715,85.116071" target="_blank"><i class="fa-solid fa-location-dot"></i>patna India</a></li>
+                    <li><a href="tel:+918797343437" target="_blank"><i class="fa-solid fa-phone"></i>+91 8797343437</a></li>
+                    <li><a href="mailto:avhishek06706@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>Email Us</a></li>
+                </ul>
+            </div>
+
+        <p class="footer-copy">
+            &copy; 2025 <a href="index.html">Lu-Kart</a>. All rights reserved.
+        </p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛒 Lu-Kart Furniture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo"><a href="index.html">Lu-Kart</a></div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html#shop">Shop</a></li>
+                <li><a href="index.html#deals">Deals</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="icons">
+                <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <button class="btn-primary" onclick="window.location.href='login.html'">
+                    <i class="fas fa-sign-in-alt"></i>Login
+                </button>
+            </div>
+
+            <div class="nav-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="category-section">
+        <div class="section-header">
+            <h2>Furniture</h2>
+            <p>Make your space beautiful</p>
+        </div>
+
+        <div class="product-grid">
+            <!-- Living Room -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1603192399946-8bbb0703cfc4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JTNFTW9kZXJuJTIwU29mYSUyMFNldHxlbnwwfHwwfHx8MA%3D%3D" alt="3-Seater Sofa">
+                <h3>Modern Sofa Set</h3>
+                <p class="price">₹32,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQBLrCUcjJy_V9KP-U1tHJ7Mq9eG3oUWQSIqCZHoH1arvVy0jlTB9cHMsuMzhrmYpyv9LGNZCiOzAY24GiDm6mdedpOvAEZuCMj1GFl73k" alt="Recliner Sofa">
+                <h3>Wakefit Curacao Three Seater Sofa</h3>
+                <p class="price">₹70,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRcwoHB30kCP8nJczN1HKFHBZVtMDmFLeo92a7sy6uyT7-8STqkKincLilSQBaekhnlcdFPC7ipvWOETMCMf24Bz2ZD4KNR8P2VAlf0t6se-ennLHiZNRv3" alt="L-Shaped Sofa">
+                <h3>Wakefit Multi-Colored L-Shaped Sofa</h3>
+                <p class="price">₹35,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQkMv-SR1HMnPWBgmejsOGPqXCQd5SS7LMdDtD3bW7B5PGxiPjmXD8LLDR0rWxkxcvcFQlK2t60A6LjNnBkbfZGFPmuRzSaeEfU4FpcWQ9O1TCu5RySoviN" alt="Sofa Cum Bed">
+                <h3>Comfort Designs Nora Textured Premium Polyester Fabric 5 Seater Corner Sofa Cumbed for Living Room, Functional Storage,Soft, Lightweight,</h3>
+                <p class="price">₹40,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSyPZhMyV-AT6PbWozPWNege5OvgrTS6yKvWyewrP9GzrHZh5RfBWpKsYEUyyBKhZ-m_MDKojsb1b8-qpw2q8wP-biUnctvPGGNciXmw-67" alt="Fabric Sofa">
+                <h3>Sibert 3 Seater Fabric Sofa (Dark Olive Green)</h3>
+                <p class="price">₹22,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSnbneVM_-saabUdBAsyefwsr8Kk7b0IJAHGDkNhqaI_ivWL_hzpeNUPK9FBlFJp86wsknPwEsZ9YSSPqPEy1oJToNc8QQFEtNYPAAUDjpV" alt="Leather Sofa">
+                <h3>Premium Leather L-Shape Sofa -Stylish L-Shape Sofas in Leather-Trending Designs-Estre Full Leather / 4 seater
+</h3>
+                <p class="price">₹1,45,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Bedroom -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRdaU5cb4UpoXuVeaT43xx6QxRF-b6zEGY8RYaai6Cral5w0jS4oI2mLfLxzzpra34slEZ-0UtDcpyO3JqufdAPXP3o7JOD8G6lhEuldlWT" alt="Queen Size Bed">
+                <h3>Flipkart Perfect Homes Fabric Upholstered Queen Size Bed With Headboard For Bedroom/Kids Room/Hotel Engineered Wood Queen Bed</h3>
+                <p class="price">₹18,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQR9iqnW_rj0ne6w6jE2fZEyWM0x79gOXl_KR9W31dqyHgU4aAa9GXPsQkTEQIF8SbSVg93PvQ8R1y5MovK11NF5SV_7DG60Fx4MdAveds" alt="King Size Bed">
+                <h3>Wakefit Bed | King (78 X 72) Solid Wood Bed, Upholstered, with Storage, 3 Year Warranty - Surma - Omega Grey</h3>
+                <p class="price">₹22,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSWYXkZ1YovmSxKtmfz4CT5LtraF2e3KIJze9oJCwBsVidCZHE1Rc84lTm4-14f7h0wdrAYjQfGKDL_ovvq6QYEH4c43vNIxurTPS84vZsSm0XHjea9cU-Y" alt="Single Bed">
+                <h3>CASPIAN Furniture Wood Textured Single Bed with Box Storage</h3>
+                <p class="price">₹12,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQyMNp6aB7MdGXxZ2_S92zu8DA3rsZf1mAmfz4ljre9uXCRBiMhhUfbvuXl6LoFpWz9hSQWeTc10jWPcMlXaVz9pB0IXWsnD2RnRa-i1VkzbsB855BHvHXC" alt="Bunk Bed">
+                <h3>Nilkamal Nemo Metal Bunk Bed (Multicolor)</h3>
+                <p class="price">₹25,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcReGL0snXQ3Ybpmr0NM9fiJqi7q2BXWDWHVNKExtQx7yvEnjLDSjJ_A0NoZAzXtQiA_65fzRX68Yl4B70vXZjbAAbC008E3r4aC5iHM75Fr" alt="Murphy Bed">
+                <h3>Queen Murphy Bed Wall Bed with Cushion, Cabinet Bed Frame, Upholstered Headboard, Foldable</h3>
+                <p class="price">₹1,30,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS2S1PJ7Fq-R_Cm4uR35yJbTQj94eCLa6xGIeheC_VXKWs_Ykr_1B3--THFFQffF1RbwN-UlRAbwP-0Xevrl37FEgJvfUjW2LTIeRhHV7miVF8b7i4p1K-4cg" alt="Adjustable Bed">
+                <h3>duroflex Metal Wave Plus Smart Adjustable Recliner Bed With Headboad</h3>
+                <p class="price">₹71,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Dining Room -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQrAOcCc3-p30C6-SXtm28GtMvyeuOV6cGKU2VlF4fjRHSUouMHyCc1Xb81GVlz4d23rUPfEis3fr9BkqGdHPu9JbRAJJfHc5h0pVdDYkLi" alt="Dining Table">
+                <h3>Seeta Arts - Rustic Rectangular Dining Table | Solid Wood 6 Seater Dining Table | Dining Table | Dining Room Furniture |Black</h3>
+                <p class="price">₹15,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRA--IjnJm-fQh0zzIfrd2OCiHZ84DNoRrTAOiQmLWHL9SAHBsWRPuJCWQY1n3mWqscQgZUcGDXS830gVfdEm8AlkdsVbFlKe3ZcOCbCCgG" alt="Glass Dining Table">
+                <h3>Nobu 6 Seater Glass Dining Tabl</h3>
+                <p class="price">₹18,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+           
+            <!-- Storage Solutions -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQtrJtW1Helc9EJKJ3GNdQsT-qXsSTpesd8ga1llFoDLnHHc-cKlKsKsjgkUvtmTbOGOmBj0VYq36eXlV_VgFO4W90hMDwuHeGmQA-0lGv8gjVdsz8k7MGl" alt="Wooden Cabinet">
+                <h3>Home Full Engineered Wood Free Standing Cabinet</h3>
+                <p class="price">₹9,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTlzCPCdo-xPogdjMYnt5AOfB8gRdWI-CR0zrh4tWP78IyKrS0_Le6KjzVqfBo0esqLc5K2ZoDXHBEtE9Wyon6Nza6jSziZW0U0oRaYJU4" alt="Metal Shelf">
+                <h3>Storack Adjustable Shelves Boltless Metal Steel Storage Shelving Display Rack, Bookshelf Iron, Steel Wall Shelf</h3>
+                <p class="price">₹7,499</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+           
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQaAmtlTxQUI_FS-NrTJk8GK9peEW685ZF8IHCkivv9dNcjJ6eobj0Qq9uTbp7QZJX6k-pKN7860dUXIC9zfzdlMz2Zxv1FgVvp2CVYVHsg" alt="Wooden Chest">
+                <h3>Cherry Wood Sheesham Rosewood Solid Wood Free Standing Chest Of Drawers</h3>
+                <p class="price">₹11,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSVV9dvSF_QUVSuCsCKmEaxcWS9-uog7GiGHFdx1dKXHmYnDd-GToz7FDJlU7N_hnZ89eGXvgBj7kgf46D7YBZl1M-yR2-6VQ4dRipa1UVX" alt="Metal Cabinet">
+                <h3>Metal Almirah 2 Door In Pune-52/30/16</h3>
+                <p class="price">₹8,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR9mJ9GGqezBvd-dGkzYoBMYDuSNPcamWzuYcbhLr8RZbQL28tgTaNBe4xT0Rshtaa2nSzeRc1N8locYhLs5AS72nSkB_EQMUO01QQwaKPZdnAqQZpUVwfu" alt="Wooden Bookshelf">
+                <h3>Sheesham Wooden BookshelfWooden Bookshelf</h3>
+                <p class="price">₹13,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Decor Items -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSHC2Uv09c1K7gdKfE6VM1vGuzmH3PpaFyj8rirogH3XDzcgBwg06Al-hJUH_pBR5b_42-T7X4JjC7UB9-DtduUJrfllkVJM7t36RiNi745" alt="Wall Clock">
+                <h3>Collectible India 8 Inch Dial Vintage Wall Clock</h3>
+                <p class="price">₹1,499</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRjUSYTHV2x9HJRughVg52FDHKYgPgIcBNG2as2MLpPf1a4aW4ypPgtsv8O-YmajBht7jaDNMMAriWqy7em_8wyXwzeiP3IPTTfQXU2E_RW1hRs-FmVUj0YNw" alt="Table Lamp">
+                <h3>Pepperfry Retro Metal Table Lamp</h3>
+                <p class="price">₹1,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTGRYC7rCIBfltp2vW9OnAKmtoKlKJteeBJPPYU0_d54bEyUcQjLSDte73PO5ypYQFjTK6HGgpc3_IGRXHwlWG_G3KvGOjGet6dVWbWk9o" alt="Vase">
+                <h3>10club Ceramic Oval Vase | Flower Vase for Home Decor | Ceramic Vase | Emerald Green | for Home, Office, Centerpiece or Gifting</h3>
+                <p class="price">₹899</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRZfn9DghzcUsR0oYUP0_MpaXE6mAPVFsKtC-SYtiDQt30hCr1WIlIW-cgflX9YxsVFDT8wcwOlarpIbgi7CmsBPiv07fMLuFyQfoid0wksk-RPGVtJ2lEUh2E" alt="Picture Frame">
+                <h3>Picture Frame</h3>
+                <p class="price">₹1,299</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR_9ZxST7sserKmDIoHQQVzakfEtJbm0HbclmfjtSPRnt__bVUVT-_mWR8mQbTdN65DCG6ClBDBwWX-sMUbRLUglc3A2XmLQP-g-mFXOuS_" alt="Wall Art">
+                <h3>ULTRA SHINE HOME DECOR Metal Wall Art - Metal Wall Decor for Living Room | Metallic Wall Decor</h3>
+                <p class="price">₹3,499</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTXgiQLA9c4QhDjN38ZzxSkt3aBbDdN2hNu7PBUwychFyvke26QrFpsBd2cfTnRdmVQF-tZzJ2yw2_23kzs_i-vQHEFGh3pcfh3Ob3FILXK6x5IvdoLnnYQ-A" alt="Sculpture">
+                <h3>Majestic Elephant Tabletop Sculpture - Small</h3>
+                <p class="price">₹2,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-content">
+                <a href="index.html" class="footer-logo">Lu-<span>Kart</span></a>
+                <p class="footer-description">
+                    Your one-stop shop for quality products and great deals every day.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/lucyfer1703" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/lucyfer1703/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/lucyfer_1703" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/@CollegeCrackdown" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Free Shipping</a></li>
+                    <li><a href="#">Easy Return</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Company</h3>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+           <div class="footer-content">
+                <h3 class="footer-title">Contact</h3>
+                <ul class="footer-links">
+                    <li><a href="https://www.google.com/maps/place/25.586715,85.116071" target="_blank"><i class="fa-solid fa-location-dot"></i>patna India</a></li>
+                    <li><a href="tel:+918797343437" target="_blank"><i class="fa-solid fa-phone"></i>+91 8797343437</a></li>
+                    <li><a href="mailto:avhishek06706@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>Email Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer-copy">
+            &copy; 2025 <a href="index.html">Lu-Kart</a>. All rights reserved.
+        </p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

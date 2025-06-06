@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛒 Lu-Kart Footwear Collection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo"><a href="index.html">Lu-Kart</a></div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html#shop">Shop</a></li>
+                <li><a href="index.html#deals">Deals</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="icons">
+                <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <button class="btn-primary" onclick="window.location.href='login.html'">
+                    <i class="fas fa-sign-in-alt"></i>Login
+                </button>
+            </div>
+
+            <div class="nav-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="category-section">
+        <div class="section-header">
+            <h2>Footwear Collection</h2>
+            <p>Step into comfort and style</p>
+        </div>
+
+        <div class="product-grid">
+            <!-- Sports Shoes -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ0AOLS3pwSlkAThM7R1REhPfDrbh-IRIJ32vRlm40ZYAcdT7D1aV4tSQpfqKJmtwWLh05Q_DDsrnTEkuF9HyhPhMoP7PK8-g0YX0ZI1zACARpIBijsqXh3zg" alt="Running Shoes">
+                <h3>Puma Men's Running Shoes</h3>
+                <p class="price">₹1,499</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSwGsNx5OadEYhOzXkFsne3vPLeda0a5UIHoQVQEPURNgmIVQrZSqGqDkv9zg4gQq-apuVRSMyngZz41N0c9x2AcswUx02PwfKd7isM_lpvjY8Xb-wPBJxHEw" alt="Sports Shoes">
+                <h3>Adidas Men's Ultrafly Running Shoes</h3>
+                <p class="price">₹1,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- More Sports Shoes -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSK3DdTYywInk0cYEXZaqiZ3UFCNI1NOx035bkTNkBfi1-Tt30R1ZWWNivr7ULo2K_wzClS6W_FSjg4m0ix67sLa6f_luvntkjw2TNAABR5ndBJREzjjCT1" alt="Training Shoes">
+                <h3>Men Puma Disperse XT 2 Black Training Shoes</h3>
+                <p class="price">₹2,199</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR4s3WSnTJntfpebh7NsswDH3bt_ch_eAtMAE1Pgh33-jnDuo5bv8lVCi-051eZ-1LCBsUCkXdynqld8IAB1MF3XQNQJEmWZc30IKlbVdN2rYpm1fkv7xra" alt="Basketball Shoes">
+                <h3>Nike Men's LeBron XXII</h3>
+                <p class="price">₹5,644</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQolXtaewSZWx0_mr2x3omoH9yA_XVXy4OquBMPRe7iGb_d8OJH0Hpzl1oG-di48mMUkWwLx0cFjxveNfsSaSHZeqDxOQDSP-rPog2Qqs_LY1riD8hMv2XwRPo" alt="Soccer Cleats">
+                <h3>Nike Mercurial Superfly 10 Academy MG High-Top Soccer Cleats</h3>
+                <p class="price">₹7,499</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS4dfWvxpDEWAIFbwxoimaXYqOLz_1dqIgjYKJm-pC8Tw1BbzFWIJkRdYeeQ26jEFceXxq1UPQVtuq3G-eeorCLAHmtQqdcUXD0UQNZhsyiuS2lo9kvWgrB">
+                <h3>Nike Men's NikeCourt Lite 4 Tennis Shoes</h3>
+                <p class="price">₹6,499</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Casual Shoes -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQK6YXM3lTXZaL_PluXT3BJPRcB0KGKk02JbDwoecbHSYjeIW6PIeO_9aV0Js9kW0hSiTRMpCyV-oHzgW_dxoKckbK4hLlaLkDd2qZYh6ehdHKtx94GTVRNhg" alt="Loafers">
+                <h3>Red Chief Men's Slip-On Casual Shoes</h3>
+                <p class="price">₹1,799</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ9lbcevusQQC4HBYh7goAGXJK5tnn4CYe0n8IpPpc5hvOzRx7eKqtZCtSokJBbGw1ZaPJaIGK8BqvHPeWRPRlzO_R8xUb3TIFJwCQ5hL4dgMCV71yHBaBUeQ" alt="Sneakers">
+                <h3>Red Tape Men's Lace Up Round Toe Sneakers</h3>
+                <p class="price">₹2,299</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTmRPBqunf7lUwFGJeQStmXTg277lutWx36KaUvQD4wp1jR6lINmQZ7N-Yvx40lvXGz57oiuPeV6uo1kviWyAaUc5cV4n7YvlOLFf1Nilk2" alt="Canvas Shoes">
+                <h3>Roadster Men's Solid Canvas Sneakers</h3>
+                <p class="price">₹1,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ9c-L4px-kB3I4sxuX3v2U0_6C9Cg5lSLpvUKgyYv7imYiASNAHk_ACXFhitQhJDNOx0mcYDEtKzVdDLcvdyfISYa_DS1Ts6Uvqy4D2cmo9SdpRTbKwnpgaw" alt="Slip-Ons">
+                <h3>U.S. Polo Assn. Men's Campbell Slip-On Sneakers</h3>
+                <p class="price">₹1,499</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSoQMFbFwzcD4qeoYoljibK0z1mPJNQccNq-rpEwbW8OQ6iN8Y8YaLdXce8m2xwxcwrqLln5hySnL62oD-LRi_Jp6cAoZq-ey54SjDWXYpIN_MNppTO9xs19Q" alt="Brogues">
+                <h3>Provogue Men Round Toe Formal Brogues</h3>
+                <p class="price">₹2,799</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Formal Shoes -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQHSWAg5zGthYDSpWzBDOD34muG7C6WbPp61hcdxiNLxbCpeXuUMdsPylM_8ul0qT9l1zx_5GYIHO_9azNr_AEDPz8bT0pODdPBz3-zCZlm" alt="Oxfords">
+                <h3>Kenneth Cole Men Formal Leather Oxfords</h3>
+                <p class="price">₹3,499</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQrcVzUpUbr6-wUREOd-dNvGrJt_NBwqbpQLmShanoEourFF8tZx7421TcqYCX8KJi9LaWHIxZcT_Q0Ez4bms4rS7u1L7Z61iZyVdkYwR9XLRmJ-S8OfG4mbw" alt="Derby Shoes">
+                <h3>Red Chief Men Derby</h3>
+                <p class="price">₹3,199</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQzgYGjVAYWbiGkKp7MYlCRJRkpmD55VmyLD4MH5_9RmMcy9fUWDzXGBUewuvN6-T2vH5OAI4d9MWYWegjGENM72ugWsRG0X0v5grmsKEy6" alt="Monk Straps">
+                <h3>Mactree Monk Strap</h3>
+                <p class="price">₹4,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQKdU-MbFNhV2-7k19xXJeDhWcAvX7pQCGFzR4_UxKZelMsDrfip60R8AthS4OKECapZ0Ly1VWgDwkQOMdJukHq_-rOBgJ3zax9H01sPbrR6IqbZjC9TQ0AlQ" alt="Loafers">
+                <h3>Hush Puppies LIGHT Brown Loafers For Men</h3>
+                <p class="price">₹2,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRJWVJTszLItw5PWAcoOVHAz0EnXjiJfKQB-wdG3sCxjQL5v83PZt9gKTyvrh_b_-mY7mZ4tv94uoq8jOgiPpPu6-RgowhfXcA2pEwNc8l0" alt="Cap Toe">
+                <h3>ARROW Men Low-Top Cap-Toe Oxford Shoes </h3>
+                <p class="price">₹3,799</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Sandals -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHsmx5gM1plUcKZsiEPJyXbCPzaI0Jm-ETPXV0j3NMRmIGC4bvJwp98uXVNekpBGFv4810IiliJbWA7YpNCotBPH6hRRUXCYWzWWJaA8yWz5uLy7TQvWqnkQ" alt="Flip Flops">
+                <h3>Campus Men's Flip Flops</h3>
+                <p class="price">₹699</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQM8wSon-SKM5xmGNhwS5fYfjcI3SXsEvkugKY8mw7tcDjY02RD4BokK1uzEJBjMhodA_MCavUtafS-qHv8uYIu7Sh_Ent-xaDCCAIZN1RsaACtDCYZbaI8" alt="Slides">
+                <h3>Jordan Franchise Slides</h3>
+                <p class="price">₹2,899</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQQdiX09xELvo7jRcp1WCLBjVSq8z_VWVdEZUL96jUAeBx34Ez-VHmmR5Jr8417idsCGVaA7cXegC02ppKs4BEvsN_eKlmOgmUBTCYpoTL2LKcovWwDGExR" alt="Wedge Sandals">
+                <h3>AfroJack Women's Wedge Sandals</h3>
+                <p class="price">₹1,299</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRkuzlbiGPBYN9cLbBna4_uaf0Wd3Vd78qh8CNIxyPsVVwclN9tWAdrSiFjf0retfD75qOjmkbJshm3XhgxOkEXOpVYx_59fZQ1-I7-UeZQKOjwbQZLaP1M7A" alt="Platform Sandals">
+                <h3>Lavie PU Platform Sandals</h3>
+                <p class="price">₹1,899</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSGPjM5qiUqLLLp5Ajf1gaDOhRyYeVoDVMInUYw4HUVHkYpGzKpXT7CGY_BcwbNVnotixsEuMc2KVfJbQ-ZRQjvnsyNYE9-0hbmin8BBObrWiYlm8wCdHMkQQ" alt="Comfort Sandals">
+                <h3>Medifeet Women's Extra Stylish Comfy High Back Strap Arch Support Sandals</h3>
+                <p class="price">₹1,199</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Boots -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRDX8s7rFI3FsQvJd8J5fxxo7NjmGlyfo8heGTZD_PSuB5qbuIPU61KfNusAoX8ZxdF3DorirPqu9k2Grgivi85Oxo4FxMm8RqCzCknx2I1DMU6ykfuXXCDdiw" alt="Ankle Boots">
+                <h3>Delize Women's Ankle-Length Zip-Closure Boots</h3>
+                <p class="price">₹3,199</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTQf6EPTrUMkejCuHstf5HFkQguK9QUTKWh3r_FDn2uIVlHY4fktvSj7GzJ8mAtctPcwAT_3RZnjM0QFBzTDXBPdNb_gKGz3nWZTBbIrLqDwB90SSCJaBwD" alt="Comfort Slippers">
+                <h3>Puma Men Royalcat Comfort Slides
+</h3>
+                <p class="price">₹899</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTO2O3hEDgOPe6VqzBGQATy5K2VvCAHlYR6-qz8mfxRxGlwaxhcNhW0FPTwecqDP4BKk07MFQVRmo8xE1EJt186NjYTU-LWcJSpnGMu-O9K7ZryOe3A2jbVYQ" alt="Furry Slippers">
+                <h3>Women's Fuzzy Fluffy Furry Slippers</h3>
+                <p class="price">₹899</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            
+            <!-- Clogs -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQFKgch_NbyKnwCIS2SIDnKaG5CFmJLl16c4Olv24jGvu-lE3pkvp-Wogb5dJuqwvC4f89LEZdSEzPmi1N_wyc63QhfM8GrXjFBy_mH4zU" alt="Wooden Clogs">
+                <h3>Sandgrens Swedish Handmade Wooden Clog</h3>
+                <p class="price">₹45,116</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRaXlPyPyQ6zq8TsihnVgSyHyu587vj528NeWFwK6-Vmz39tGU70JbiOIqBSpLRlwFq33iEgHivWssyiYaikIMiL5kkNNoGJ2mJU1Q0Zwdg" alt="Fur Clogs">
+                <h3>Crocs Women's Cozy Fuzz Clog</h3>
+                <p class="price">₹10,299</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-content">
+                <a href="index.html" class="footer-logo">Lu-<span>Kart</span></a>
+                <p class="footer-description">
+                    Your one-stop shop for quality products and great deals every day.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/lucyfer1703" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/lucyfer1703/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/lucyfer_1703" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/@CollegeCrackdown" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Free Shipping</a></li>
+                    <li><a href="#">Easy Return</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Company</h3>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Contact</h3>
+                <ul class="footer-links">
+                    <li><a href="https://www.google.com/maps/place/25.586715,85.116071" target="_blank"><i class="fa-solid fa-location-dot"></i>patna India</a></li>
+                    <li><a href="tel:+918797343437" target="_blank"><i class="fa-solid fa-phone"></i>+91 8797343437</a></li>
+                    <li><a href="mailto:avhishek06706@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>Email Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer-copy">
+            &copy; 2025 <a href="index.html">Lu-Kart</a>. All rights reserved.
+        </p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

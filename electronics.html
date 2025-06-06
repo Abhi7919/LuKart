@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛒 Lu-Kart Electronics</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo"><a href="index.html">Lu-Kart</a></div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html#shop">Shop</a></li>
+                <li><a href="index.html#deals">Deals</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="icons">
+                <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <button class="btn-primary" onclick="window.location.href='login.html'">
+                    <i class="fas fa-sign-in-alt"></i>Login
+                </button>
+            </div>
+
+            <div class="nav-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="category-section">
+        <div class="section-header">
+            <h2>Electronics</h2>
+            <p>Latest gadgets and devices</p>
+        </div>
+
+        <div class="category-filters">
+            <h4>Filter By:</h4>
+            <!-- Add filters here -->
+        </div>
+
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRlZMGbEA1rJRHCUITL8fttzvypIdQ2o4a33SiV4twY4QLkWh47bjCdRGdxB_WhQGJjzK1D0Txn453YJzmIPr_bZu9UWCNqNJB2QTMDO4Yc" alt="Gaming Laptop">
+                <h3>Gaming Laptop</h3>
+                <p class="price">₹1,00,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSCKnhB1egIC_x1Az3YujhhJRcYNOLt1c_imRUbz1YKpzn_mthUckoRgYT5VrA7rWHlzz376rBHfkG7sjHjLhMjrKIeM6RGVRxqR_tfnXVV1crRq5xlWwDoIA" alt="Smartphone">
+                <h3>Apple iPhone 16 Pro Max</h3>
+                <p class="price">₹1,84,990</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTXezY1cblSgNG9RQkFSeFzPCpwog2bbfPAMhmOxTdVtCf0wIxXrTBGOnuex88yP9fYcPJkGfiDbCbnFb7JB2rqjY8933jTjUwmBqsaFiguRRb0jhFUI8ik" alt="Tablet">
+                <h3>Apple iPad 10.9inch"</h3>
+                <p class="price">₹25,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTp7t8X63tKHcxOTt-ZzOvFZRLBuPUnHgnwoDptdpbusvvA8w2MZcfaZR_-g308eTsgblVuNlhtx49IQc_oAEfbiKiRTXHuDZRONUhmjfk" alt="Smartwatch">
+                <h3>Samsung Galaxy Watch FE 40mm BT</h3>
+                <p class="price">₹15,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT3AxK9hY4hB6g94PV3sWTFYnTjG7dF9429vdtUx_fD72sYVhg2r1sJbjXLQhGM1ggk4Tb8-F-JaEMLPbuX2N2pCXo_xDOrosVwJpiwKbW1xCV1RQIyZTdBRGmx" alt="Headphones">
+                <h3>NSony WH-1000XM5 Wireless Noise Cancelling</h3>
+                <p class="price">₹25,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTmQEJFmG5zQKk7xch5erqX5tROxTJv80Itwo8UWw8c8F0OcRcBGadZeGDT2WaS6eyQqoXvcnhuPnI8FWBquO5Qd0eX_Q4EAtI-R8YJG_7a" alt="Camera">
+                <h3>Sony A5100 Camera</h3>
+                <p class="price">₹35,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRMM1PkcOZEWsoCpR33UdMzP7RZMrZ8b2PnONYWeDMmvOEzhUyRAxSOYKwLKLJ6_F9YHxAt0DV0i6LQT63ajPr909ZAoUeVzHan95TaiG8" alt="Gaming Console">
+                <h3>Microsoft Xbox Series X</h3>
+                <p class="price">₹1,26,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSInAPDeOA4f4r5M-TnC9noCpDTXSsGzGeX0zOph5n6e7_7OVLgHtxMl2yoh5CeFdk6IoQMr7zUSPluIQvJdXGARARKO5q7Xar4HAamMH86YryVYWng4_IH" alt="Bluetooth Speaker">
+                <h3>JBL Go Essential Portable Waterproof Speaker</h3>
+                <p class="price">₹3,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Product 9 -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRWi2uti8R9G6xA1lJ5LSHjSIlpqgf3NaFhq_piaH_Hi_8KatyFTecAVeqmEJUL_AjZ7L4v9dRAqE1Ix3VldmL1jxopC8Ff0LDTGkwXgrA" alt="Drone">
+                <h3>Samsung QLED Ultra Hd 4K Smart Tizen TV With 2024</h3>
+                <p class="price">₹53,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Product 10 -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSk05A5j9OfXWx7U6-aaY9yulRrh0BDri44Hr0ZMFoMGWWka0hUeFumZHccNcUrinJbgQR7gKK9eMAWR2azZqfTHSgXIKdObcL7cZfNlt0" alt="Smart Light Bulb">
+                <h3>DJI Mavic 3 Pro Combo</h3>
+                <p class="price">₹2,99,999</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                </div>
+                <button class="add-btn"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <section class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-content">
+                <a href="index.html" class="footer-logo">Lu-<span>Kart</span></a>
+                <p class="footer-description">
+                    Your one-stop shop for quality products and great deals every day.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/lucyfer1703" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/lucyfer1703/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/lucyfer_1703" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/@CollegeCrackdown" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Free Shipping</a></li>
+                    <li><a href="#">Easy Return</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Company</h3>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Contact</h3>
+                <ul class="footer-links">
+                    <li><a href="https://www.google.com/maps/place/25.586715,85.116071" target="_blank"><i class="fa-solid fa-location-dot"></i>patna India</a></li>
+                    <li><a href="tel:+918797343437" target="_blank"><i class="fa-solid fa-phone"></i>+91 8797343437</a></li>
+                    <li><a href="mailto:avhishek06706@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>Email Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer-copy">
+            &copy; 2025 <a href="index.html">Lu-Kart</a>. All rights reserved.
+        </p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
